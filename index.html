@@ -5,20 +5,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kingdom Middle School - Home</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body>  
     <div id="wrapper">
         <div id="sidebar">
             <ul>
-                <a class="navLink" href="courses.html"><li class="navItem">Courses</li></a>
-                <a class="navLink" href="calendar.html"><li class="navItem">Calendar</li></a>
-                <a class="navLink" href="directory.html"><li class="navItem">Directory</li></a>
-                <a class="navLink" href="sports.html"><li class="navItem">Sports Roster</li></a>
-                <a class="navLink" href="login.html"><li class="navItem">Secure Portal Login</li></a>
+                <!-- I tried to use FontAwesome icons, but it didn't work. -->
+                <a class="navLink" href="/">
+                    <li style="background-color: #cccccc; border-left: 4px solid black;" class="navItem"><i class="fa-solid fa-home"></i> Home</li>
+                </a>
+                <a class="navLink" href="courses.html">
+                    <li class="navItem"><i class="fa-solid fa-book"></i> Courses</li>
+                </a>
+                <a class="navLink" href="calendar.html">
+                    <li class="navItem"><i class="fa-regular fa-calendar"></i> Calendar</li>
+                </a>
+                <a class="navLink" href="directory.html">
+                    <li class="navItem"><i class="fa-solid fa-compass"></i> Directory</li>
+                </a>
+                <a class="navLink" href="sports.html">
+                    <li class="navItem"><i class="fa-solid fa-football"></i> Sports Roster</li>
+                </a>
+                <a class="navLink" href="login.html">
+                    <li class="navItem"><i class="fa-solid fa-right-to-bracket"></i> Secure Portal Login</li>
+                </a>
             </ul>
         </div>
         <div id="main">

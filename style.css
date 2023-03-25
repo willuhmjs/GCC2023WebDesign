@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -7,13 +8,14 @@ body {
     font-family: sans-serif;
 }
 
+.fa-solid, .fa-regular {
+    font-family: "Font Awesome 5 Free";
+    margin-right: 6px;
+}
+
 #wrapper {
     display: flex;
     flex-direction: row;
-}
-
-#sidebar {
-    flex: 1;
 }
 
 #main {
@@ -29,15 +31,18 @@ ul {
 #sidebar {
     min-height: 100vh;
     background-color: #e6e6e6;
+    flex: 1;
 }
 
 .navItem {
     display: block;
     padding: 1rem;
+    padding-left: 1.2rem;
 }
 
 .navItem:hover {
     background-color: #cccccc;
+    border-left: 4px solid #000;
 }
 
 .navLink {
@@ -47,5 +52,5 @@ ul {
 }
 
 #main {
-    padding: 1rem;
+    padding: 2rem;
 }
