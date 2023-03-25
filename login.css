@@ -1,0 +1,25 @@
+.mainBox {
+    max-width: 800px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+    background-color: #e6e6e6;
+    border-radius: 20px;
+    padding: 5rem;
+    font-size: 25px;
+}
+
+.mainBox input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    font-size: 20px;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
